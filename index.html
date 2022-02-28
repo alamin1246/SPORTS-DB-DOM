@@ -5,8 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SPORTS-DB-DOM</title>
+    <link rel= "stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="container w-100 m-auto">
+        <div class="row w-100 m-auto">
+            <div class="col-md-6  w-100 m-auto text-center">
+               <h2>left side</h2>
+               <!-- Search form -->
+               <div class="input-group md-3">
+                <input id="search-box" type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2" />
+                <div class="input-group-append">
+                    <span onclick="allPlayers()" class="input-group-text" id="search-btn">Search</span>
+                </div>
+              </div>  
+            </div>
+            <div class="col-md-6  w-100 m-auto text-center">
+               <h2>right side</h2>
+            </div>
+        </div>
+    </div>
+   <script src="app.js"></script>
 </body>
 </html>
